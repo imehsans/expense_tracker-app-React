@@ -1,11 +1,11 @@
 import './App.css'
+import Child from './components/Child'
+import { TransContext } from './components/TransContext'
 
-function App() {
+const App = () => {
 	return (
-		<div>
-			<header>
-				<h1>App js</h1>
-			</header>
+		<div className="bg-gray-200">
+			<Child />
 		</div>
 	)
 }
